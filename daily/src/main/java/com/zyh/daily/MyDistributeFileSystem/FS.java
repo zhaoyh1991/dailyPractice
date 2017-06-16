@@ -30,11 +30,13 @@ public class FS {
                 @Override
                 public void run() {
                     long start=n*blockSize+1;
+                    int totalBytes=0;
                     ByteBuffer byteBuffer=ByteBuffer.allocate((int) blockSize);
                     try {
                         FileChannel part=channel.position(start);
                         int readn=part.read(byteBuffer);
-                        while(readn!=-1){
+                        while(readn!=-1&&totalBytes<=blockSize){
+                            totalBytes+=readn;
                             //这里需要实现一个文件server和和一个客户端实现文件的读写（需要将每次的文件名和文件类容组合发送到服务端，服务端解析此次操作
                             //如果是读则读取返回给客户端如果是写则将内容写到指定的文件
                         }
