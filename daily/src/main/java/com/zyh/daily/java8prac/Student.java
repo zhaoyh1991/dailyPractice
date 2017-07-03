@@ -7,6 +7,13 @@ public class Student {
     private String name;
     private Integer age=0;
 
+    public Student() {
+    }
+
+    public Student(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
