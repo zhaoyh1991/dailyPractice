@@ -1,9 +1,7 @@
 package com.zyh.daily.java8prac;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
+import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 /**
@@ -18,11 +16,29 @@ public class TestStream {
             Student student=new Student();
             student.setAge(random.nextInt(30));
             student.setName("name"+i);
+            students.add(student);
+
         }
         List<Student> students1=students.stream().filter(student -> student.getAge()<20)
                 .sorted(Comparator.comparing(Student::getAge))
                 .collect(Collectors.toList());
         System.out.println(students1);
+
+        Consumer<String> consumer=(String s)-> System.out.println(s);
+        consumer.accept("aaa");
+
+       Map a= students.stream().collect(Collectors.groupingBy(student->{
+            int age=student.getAge();
+            if(age<10){
+                return "child";
+            }else if(age<20){
+                return "young";
+            }else {
+                return "old";
+            }
+        }));
+        System.out.println(a);
+
 
     }
 }

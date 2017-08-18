@@ -6,6 +6,8 @@ import java.util.function.Function;
 import java.util.stream.LongStream;
 
 /**
+ *
+ * 尝试forkjoin
  * Created by zhaoyh on 2017/7/23.
  */
 public class TestFJ {

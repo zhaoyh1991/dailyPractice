@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/daily/pom.xml" />
+        <option value="$PROJECT_DIR$/learnspark/pom.xml" />
       </list>
     </option>
   </component>
