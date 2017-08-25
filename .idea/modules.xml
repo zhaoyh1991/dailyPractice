@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/daily/daily.iml" filepath="$PROJECT_DIR$/daily/daily.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dailypractice.iml" filepath="$PROJECT_DIR$/.idea/dailypractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnnetty/learnnetty.iml" filepath="$PROJECT_DIR$/learnnetty/learnnetty.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnspark/learnspark.iml" filepath="$PROJECT_DIR$/learnspark/learnspark.iml" />
     </modules>
   </component>

@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/daily/pom.xml" />
         <option value="$PROJECT_DIR$/learnspark/pom.xml" />
+        <option value="$PROJECT_DIR$/learnnetty/pom.xml" />
       </list>
     </option>
   </component>

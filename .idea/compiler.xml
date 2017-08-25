@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="daily" />
+        <module name="learnnetty" />
         <module name="learnspark" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="daily" target="1.8" />
+      <module name="learnnetty" target="1.5" />
       <module name="learnspark" target="1.8" />
     </bytecodeTargetLevel>
   </component>
