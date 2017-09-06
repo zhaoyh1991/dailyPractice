@@ -1,8 +1,12 @@
 package com.zyh.daily;
 
 import java.text.SimpleDateFormat;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Date;
+import java.util.concurrent.locks.Lock;
 import java.util.function.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by zhaoyh on 2017/8/14.
@@ -25,6 +29,8 @@ public class Test {
         if(predicate.test(a)){
             System.out.println(a+" sssss");
         }
+
+
     }
 
 
