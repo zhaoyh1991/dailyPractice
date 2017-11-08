@@ -3,6 +3,8 @@ package com.zyh.daily.spring.test;
 import com.zyh.daily.spring.MyBean;
 
 /**
+ *
+ * 这里在模拟配置文件
  * Created by zhaoyh on 2017/6/14.
  */
 public class Config {

@@ -9,11 +9,12 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 /**
- * future的方式Aio
+ * future方式的Aio
  * Created by zhaoyh on 2017/6/12.
  */
 public class TestAio {
     public static void  main(String[] args){
+        //这里设定自己的文件路径
         Path path= Paths.get("D:/README.md");
         AsynchronousFileChannel asynchronousFileChannel=null;
         try {

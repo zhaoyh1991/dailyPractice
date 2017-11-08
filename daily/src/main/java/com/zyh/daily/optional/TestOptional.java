@@ -5,6 +5,7 @@ import com.zyh.daily.java8prac.Student;
 import java.util.Optional;
 
 /**
+ * java8 optional的例子
  * Created by zhaoyh on 2017/8/14.
  */
 public class TestOptional {

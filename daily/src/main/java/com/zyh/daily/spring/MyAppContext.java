@@ -6,6 +6,7 @@ import java.lang.reflect.Parameter;
 import java.util.*;
 
 /**
+ * 这里是在模拟spring的工作原理
  * 模拟依赖注入的容器
  * Created by zhaoyh on 2017/6/14.
  */

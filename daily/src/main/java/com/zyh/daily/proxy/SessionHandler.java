@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 这里在模仿orm实现了一个自己的简单模型
  * 处理器这里依照注解实现相应的方法(类型怎么转换之类的木有搞定)
  * Created by zhaoyh on 2017/7/3.
  */
