@@ -1,4 +1,4 @@
-package com.zyh.daily;
+package com.zyh.daily.collect;
 
 import java.util.ArrayList;
 import java.util.List;
