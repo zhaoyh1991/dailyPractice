@@ -5,6 +5,7 @@ import com.sun.management.OperatingSystemMXBean;
 import java.lang.management.ManagementFactory;
 
 /**
+ * 计算线程消耗的系统资源大小
  * Created by zhaoyh on 2017/11/2.
  */
 public class TestThread {

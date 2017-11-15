@@ -6,7 +6,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * this is a simple queue model of producer&consumer use condition to replace the usage of wait() and signal()
- *  tips 1.the condition should be in lock 2.lock is more flexible than synchronized
+ *  tips 1.the condition should be in lock
+ *  2.lock is more flexible than synchronized
  * Created by zhaoyh on 2017/6/16.
  */
 public class MyQue {
